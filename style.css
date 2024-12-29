@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* width: 100%;
+    height: 100%; */
+    font-family: poppins,sans-serif;
+    margin: 0;
+}
+.main-heading {
+    font-size: 4em;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(44, 14, 14);
+    
+}
+.main-heading span{
+    color: green;
+    font-weight: 700;
+    
+}
+.title{
+    display: flex;
+    gap: 10px;
+}
+.title label{
+    font-size: 2em;
+    font-weight: 700;
+
+}
+.container{
+    margin: 0 auto;
+    width: 660px;
+    height: 810px;
+    border-radius: 15px;
+    background-color: #FBFBFB;
+}
+.progress-bar{
+    height: 30px;
+    width: 574px;
+    background-color: #48A3001A;
+    border-radius: 15px;
+}
+.error-label{
+    display: none;
+    font-weight: 400;
+    font-family: inherit;
+    font-size: 14px;
+    color: #FF5151;
+}
+.error-show{
+    display: block;
+    font-weight: 400;
+    font-family: inherit;
+    font-size: 14px;
+    color: #FF5151;
+
+}
+.progress-value{
+    height: 100%;
+    border-radius: 15px;
+    background-color: #48A300;
+    width: 66%;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 14px; */
+}
+.progress-value .progress-text{
+    color: white;
+    margin-left:20px;
+    vertical-align: middle;
+}
+.goals{
+    width: 570px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0000001A;
+    border-radius: 17px;
+    margin: 30px 0px;
+}
+.custom-checkbox{
+    background-color: #FFFFFF;
+    width: 24px;
+    height: 24px;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-left: 14px;
+    border: 1px solid #61481C4D;
+}
+.custom-checkbox:hover{
+    cursor: pointer;
+}
+.checked {
+    background-color: #48A300;
+    width: 24px;
+    height: 24px;
+    background-image: url(resources/Vector\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.goal-input-checked {
+    color: #48A300;
+    text-decoration-line: line-through;
+    font-weight: 500;
+    font-size: 16px;
+}
+.goals input{
+    margin-left: 20px;
+    width: 364px;
+    height: 28px;
+    font: 16px;
+    font-weight: 400;
+    border: none;
+}
+.footer{
+    justify-items: center;
+    margin-bottom: 38px;
+}
+.footer .slogan{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 38px;
+    color: #000000;
+}
+.cc{
+    font-size: 10px;
+    font-weight: 500;
+    color: #858585;
+}
